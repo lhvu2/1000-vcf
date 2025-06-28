@@ -5,19 +5,22 @@ from os.path import join, basename
 from utils import genes_data
 import pandas as pd
 import traceback
+import glob
+from collections import defaultdict
 
-from utils import indir
 from utils import root_outdir
 from utils import skiprows
-from utils import genome_ids
 from utils import metacols
 from utils import cols
 
 script_directory = Path(__file__).parent.resolve()
 
-import glob
-from collections import defaultdict
-
+"""
+Input: extracted file, per ALS gene, with all VN genomes
+Output: create for each VN genome a separate .csv file in which all meta columns are the same
+ and the genome column is added as the right most column. Only keep the row that has NON 0|0 value
+ for this genome id
+"""
 if __name__ == "__main__":
     parent_path = script_directory.parent
     tabix_dir = parent_path / "vcf/tabix_output"

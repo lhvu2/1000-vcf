@@ -4,7 +4,10 @@ Link to download .gz files for all chromosomes:
 
 https://hgdownload.soe.ucsc.edu/gbdb/hg38/1000Genomes/
 
-
+# Order
+1. run_tabix.py
+2. als_genes_all_vn_genomes_txt.py
+3. create_per_vn_genome_csv.py
 
 ## Use a tool
 https://pypi.org/project/vcf2pandas/

@@ -7,7 +7,7 @@ from utils import genes_data
 """
 Run tabix to extract, for each gene, the location in each chromosome.
 Input: gene, chromosome, location in each chromosome
-Output: an extracted file with meta header reading for filtering columns
+Output: an extracted file for each gene with meta header reading for filtering columns
 """
 script_directory = Path(__file__).parent.resolve()
 
