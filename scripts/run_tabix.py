@@ -3,6 +3,12 @@ import os
 from pathlib import Path
 from os.path import join, basename
 from utils import genes_data
+
+"""
+Run tabix to extract, for each gene, the location in each chromosome.
+Input: gene, chromosome, location in each chromosome
+Output: an extracted file with meta header reading for filtering columns
+"""
 script_directory = Path(__file__).parent.resolve()
 
 if __name__ == "__main__":
