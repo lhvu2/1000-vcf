@@ -12,42 +12,45 @@ pip install vcf2pandas
 
 
 # All VN Genomes 
-| Gene            | Chromosome | Score |
-|-----------------|------------|-------|
-| PRPH.chr12      | 12         |       |
-| VCP.chr9        | 9          | 81    |
-| SOD1.chr21      | 21         | 92    |
-| hnRNPA2B1.chr7  | 7          | 93    |
-| DCTN1.chr2      | 2          | 97    |
-| CHCHD10.chr22   | 22         | 97    |
-| TARDBP.chr1     | 1          | 98    |
-| SIGMAR1.chr9    | 9          | 98    |
-| NEK1.chr4       | 4          | 99    |
-| FIG4.chr6       | 6          | 99    |
-| MATR3.chr5      | 5          | 99    |
-| ELP3.chr8       | 8          | 99    |
-| CHRNA3.chr15    | 15         | 99    |
-| ALS2.chr2       | 2          | 99    |
-| SETX.chr9       | 9          | 99    |
-| EWSR1.chr22     | 22         | 99    |
-| OPTN.chr10      | 10         | 99    |
-| SPG11.chr15     | 15         | 99    |
-| PFN1.chr17      | 17         | 99    |
-| CREST.chr20     | 20         | 99    |
-| TUBA4A.chr2     | 2          | 99    |
-| ANG.chr14       | 14         | 99    |
-| CHMP2B.chr3     | 3          | 99    |
-| NEFH.chr22      | 22         | 99    |
-| TAF15.chr17     | 17         | 99    |
-| SQSTM1.chr5     | 5          | 99    |
-| VAPB.chr20      | 20         | 99    |
-| ERBB4.chr2      | 2          | 99    |
-| C9ORF72.chr9    | 9          | 99    |
-| FUS.chr16       | 16         | 99    |
-| ATXN2.chr12     | 12         | 99    |
-| hnRNPa1.chr12   | 12         | 99    |
-| DAO.chr12       | 12         | 99    |
-| PON1-3.chr7     | 7          | 99    |
+## Gene List with Chromosome and Score
+
+| Gene              | Chromosome | Score |
+|-------------------|------------|-------|
+| NEK1              | 4          | 99    |
+| FIG4              | 6          | 99    |
+| MATR3             | 5          | 99    |
+| ELP3              | 8          | 99    |
+| CHRNA3            | 15         | 99    |
+| ALS2              | 2          | 99    |
+| SETX              | 9          | 99    |
+| EWSR1             | 22         | 99    |
+| OPTN              | 10         | 99    |
+| SPG11             | 15         | 99    |
+| PFN1              | 17         | 99    |
+| CREST             | 20         | 99    |
+| TUBA4A            | 2          | 99    |
+| ANG               | 14         | 99    |
+| CHMP2B            | 3          | 99    |
+| NEFH              | 22         | 99    |
+| TAF15             | 17         | 99    |
+| SQSTM1            | 5          | 99    |
+| VAPB              | 20         | 99    |
+| ERBB4             | 2          | 99    |
+| C9ORF72           | 9          | 99    |
+| FUS               | 16         | 99    |
+| ATXN2             | 12         | 99    |
+| hnRNPa1           | 12         | 99    |
+| DAO               | 12         | 99    |
+| PON1-3            | 7          | 99    |
+| TARDBP            | 1          | 98    |
+| SIGMAR1           | 9          | 98    |
+| DCTN1             | 2          | 97    |
+| CHCHD10           | 22         | 97    |
+| hnRNPA2B1         | 7          | 93    |
+| SOD1              | 21         | 92    |
+| VCP               | 9          | 81    |
+| PRPH              | 12         | 12    |
+
 
 
 

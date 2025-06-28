@@ -62,7 +62,7 @@ if __name__ == "__main__":
             print(traceback.format_exc())
             pass
 
-    sorted_dict = sorted(dir2files.items(), key=lambda item: len(item[1]))
+    sorted_dict = sorted(dir2files.items(), key=lambda item: len(item[1]), reverse=True)
     for k,v in sorted_dict:
         #print(f"{k}, {len(v)}, {v}")
         print(f"{k}, {len(v)}")
