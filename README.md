@@ -12,7 +12,7 @@ pip install vcf2pandas
 
 
 # All VN Genomes 
-## Gene List with Chromosome and Score
+## Gene List with Chromosome and Number of VN genomes that have at least one NON 0|0
 
 | Gene Name              | Chromosome | Number of VN Genomes |
 |-------------------|------------|-------|
