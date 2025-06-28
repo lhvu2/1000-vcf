@@ -14,7 +14,7 @@ pip install vcf2pandas
 # All VN Genomes 
 ## Gene List with Chromosome and Score
 
-| Gene              | Chromosome | Score |
+| Gene Name              | Chromosome | Number of VN Genomes |
 |-------------------|------------|-------|
 | NEK1              | 4          | 99    |
 | FIG4              | 6          | 99    |
