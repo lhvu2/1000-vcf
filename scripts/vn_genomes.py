@@ -7,7 +7,7 @@ import pandas as pd
 import traceback
 
 from utils import indir
-from utils import outdir
+from utils import root_outdir
 from utils import skiprows
 from utils import genome_ids
 from utils import metacols
@@ -21,13 +21,13 @@ if __name__ == "__main__":
     parent_path = script_directory.parent
     tabix_dir = parent_path / "vcf/tabix_output"
 
-    outdir = parent_path / "vcf/vn_genomes"
+    root_outdir = parent_path / "vcf/vn_genomes"
     infiles = glob.glob(join(tabix_dir, "*.txt"))
     target_value = '0|0'
     
     for infile in infiles:
         print(infile)
-        outfile = join(outdir, basename(infile))
+        outfile = join(root_outdir, basename(infile))
         try:
             df = pd.read_csv(infile, sep = "\t", skiprows=skiprows, usecols=cols)
             mask = (df[genome_ids] == target_value).all(axis=1)
